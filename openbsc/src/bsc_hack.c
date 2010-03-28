@@ -231,6 +231,7 @@ int main(int argc, char **argv)
 	on_dso_load_token();
 	on_dso_load_rrlp();
 	on_dso_load_ho_dec();
+	on_dso_load_ipac_dyn_pdch();
 	stderr_target = log_target_create_stderr();
 	log_add_target(stderr_target);
 

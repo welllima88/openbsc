@@ -1030,6 +1030,9 @@ static void bootstrap_rsl(struct gsm_bts_trx *trx)
 
 	for (i = 0; i < ARRAY_SIZE(trx->ts); i++)
 		generate_ma_for_ts(&trx->ts[i]);
+
+	if (trx == trx->bts->c0)
+		ipac_dyn_pdch_equalize(trx->bts);
 }
 
 void input_event(int event, enum e1inp_sign_type type, struct gsm_bts_trx *trx)
