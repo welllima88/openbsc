@@ -27,7 +27,7 @@
 
 #include <osmocom/gsm/protocol/gsm_08_08.h>
 #include <osmocom/gsm/gsm0480.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <osmocom/gsm/tlv.h>
 
 #include <osmocom/sccp/sccp.h>

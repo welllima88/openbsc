@@ -31,7 +31,7 @@
 #include <openbsc/paging.h>
 #include <openbsc/signal.h>
 #include <openbsc/chan_alloc.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <openbsc/ipaccess.h>
 
 /* global pointer to the gsm network data structure */

@@ -49,7 +49,7 @@
 #include <openbsc/subchan_demux.h>
 #include <openbsc/trau_frame.h>
 #include <openbsc/trau_mux.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <openbsc/signal.h>
 #include <openbsc/misdn.h>
 

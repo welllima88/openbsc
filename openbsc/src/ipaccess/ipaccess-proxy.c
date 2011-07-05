@@ -45,7 +45,7 @@
 #include <openbsc/debug.h>
 #include <openbsc/ipaccess.h>
 #include <openbsc/socket.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 
 /* one instance of an ip.access protocol proxy */
 struct ipa_proxy {

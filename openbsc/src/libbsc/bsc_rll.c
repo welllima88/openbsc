@@ -23,7 +23,7 @@
 #include <errno.h>
 
 #include <openbsc/debug.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <osmocom/core/timer.h>
 #include <osmocom/core/linuxlist.h>
 #include <openbsc/bsc_rll.h>

@@ -34,7 +34,7 @@
 
 #include <osmocom/gsm/protocol/gsm_08_08.h>
 
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 
 #define GSM0808_T10_VALUE    6, 0
 

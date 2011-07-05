@@ -39,7 +39,7 @@
 #include <osmocom/core/msgb.h>
 #include <osmocom/gsm/tlv.h>
 #include <osmocom/gsm/abis_nm.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <openbsc/abis_nm.h>
 #include <openbsc/misdn.h>
 #include <openbsc/signal.h>

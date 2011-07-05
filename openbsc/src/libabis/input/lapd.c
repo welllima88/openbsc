@@ -37,7 +37,7 @@
 #include "lapd.h"
 
 #include <osmocom/core/linuxlist.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <osmocom/core/msgb.h>
 #include <osmocom/core/timer.h>
 #include <openbsc/debug.h>

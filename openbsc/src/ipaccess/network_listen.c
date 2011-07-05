@@ -28,7 +28,7 @@
 
 #include <arpa/inet.h>
 
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <osmocom/core/timer.h>
 #include <osmocom/gsm/rxlev_stat.h>
 #include <osmocom/gsm/gsm48_ie.h>

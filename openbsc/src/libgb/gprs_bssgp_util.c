@@ -26,7 +26,7 @@
 
 #include <osmocom/core/msgb.h>
 #include <osmocom/gsm/tlv.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 
 #include <openbsc/debug.h>
 #include <openbsc/gsm_data.h>

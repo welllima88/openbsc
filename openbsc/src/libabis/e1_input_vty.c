@@ -31,7 +31,7 @@
 #include <openbsc/e1_input.h>
 #include <osmocom/core/utils.h>
 #include <osmocom/gsm/gsm_utils.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <openbsc/vty.h>
 #include <openbsc/debug.h>
 

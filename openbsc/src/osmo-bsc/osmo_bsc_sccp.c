@@ -27,7 +27,7 @@
 #include <openbsc/ipaccess.h>
 #include <openbsc/signal.h>
 
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <osmocom/gsm/gsm0808.h>
 #include <osmocom/gsm/protocol/gsm_08_08.h>
 

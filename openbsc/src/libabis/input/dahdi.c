@@ -47,7 +47,7 @@
 #include <openbsc/subchan_demux.h>
 #include <openbsc/e1_input.h>
 #include <openbsc/signal.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 
 #include "lapd.h"
 

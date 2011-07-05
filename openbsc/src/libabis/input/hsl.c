@@ -54,7 +54,7 @@
 #include <openbsc/ipaccess.h>
 #include <openbsc/socket.h>
 #include <openbsc/signal.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 
 #define HSL_TCP_PORT	2500
 #define HSL_PROTO_DEBUG	0xdd

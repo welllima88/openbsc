@@ -46,6 +46,7 @@ AM_CONDITIONAL(BUILD_BSC, test "x$osmo_ac_build_bsc" = "xyes")
 PKG_CHECK_MODULES(LIBOSMOCORE, libosmocore >= 0.3.2)
 PKG_CHECK_MODULES(LIBOSMOVTY, libosmovty >= 0.3.0)
 PKG_CHECK_MODULES(LIBOSMOGSM, libosmogsm >= 0.3.0)
+PKG_CHECK_MODULES(LIBTALLOC, talloc >= 2.0.1)
 
 dnl checks for header files
 AC_HEADER_STDC

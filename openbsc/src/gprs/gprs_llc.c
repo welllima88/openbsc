@@ -25,7 +25,7 @@
 #include <osmocom/core/msgb.h>
 #include <osmocom/core/linuxlist.h>
 #include <osmocom/core/timer.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 
 #include <openbsc/gsm_data.h>
 #include <openbsc/debug.h>

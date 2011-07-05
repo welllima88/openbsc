@@ -34,7 +34,7 @@
 #include <openbsc/db.h>
 #include <openbsc/debug.h>
 
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <osmocom/core/statistics.h>
 #include <osmocom/core/rate_ctr.h>
 

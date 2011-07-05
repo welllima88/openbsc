@@ -22,7 +22,7 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <osmocom/core/utils.h>
 #include <osmocom/core/rate_ctr.h>
 

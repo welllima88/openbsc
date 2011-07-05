@@ -29,7 +29,7 @@
 #include <sys/stat.h>
 #include <arpa/inet.h>
 
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <osmocom/core/select.h>
 
 #include <openbsc/signal.h>

@@ -22,7 +22,7 @@
  */
 
 
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 
 #include <openbsc/mgcp.h>
 #include <openbsc/mgcp_internal.h>

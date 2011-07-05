@@ -29,7 +29,7 @@
 #include <sys/socket.h>
 #include <sys/un.h>
 
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <osmocom/core/select.h>
 #include <osmocom/gsm/protocol/gsm_04_08.h>
 

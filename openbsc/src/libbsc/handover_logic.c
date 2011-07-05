@@ -37,7 +37,7 @@
 #include <openbsc/abis_rsl.h>
 #include <openbsc/chan_alloc.h>
 #include <openbsc/signal.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <openbsc/transaction.h>
 #include <openbsc/rtp_proxy.h>
 

@@ -27,7 +27,7 @@
 #include <string.h>
 #include <assert.h>
 
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <openbsc/gsm_subscriber.h>
 #include <openbsc/debug.h>
 

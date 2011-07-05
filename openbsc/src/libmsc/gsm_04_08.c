@@ -55,7 +55,7 @@
 #include <osmocom/gsm/gsm0480.h>
 #include <osmocom/gsm/gsm_utils.h>
 #include <osmocom/core/msgb.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <osmocom/gsm/tlv.h>
 
 void *tall_locop_ctx;

@@ -27,7 +27,7 @@
 #include <netinet/in.h>
 
 #include <osmocom/core/linuxlist.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <osmocom/gsm/gsm_utils.h>
 #include <osmocom/gsm/abis_nm.h>
 #include <osmocom/core/statistics.h>

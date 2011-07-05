@@ -39,7 +39,7 @@
 #include <openbsc/chan_alloc.h>
 #include <openbsc/meas_rep.h>
 #include <openbsc/db.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <openbsc/vty.h>
 #include <openbsc/gprs_ns.h>
 #include <openbsc/system_information.h>

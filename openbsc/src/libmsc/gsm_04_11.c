@@ -44,7 +44,7 @@
 #include <openbsc/abis_rsl.h>
 #include <openbsc/signal.h>
 #include <openbsc/db.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <openbsc/transaction.h>
 #include <openbsc/paging.h>
 #include <openbsc/bsc_rll.h>

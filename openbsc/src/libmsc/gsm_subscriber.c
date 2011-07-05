@@ -26,7 +26,7 @@
 #include <string.h>
 #include <assert.h>
 
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 
 #include <osmocom/vty/vty.h>
 

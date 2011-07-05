@@ -29,7 +29,7 @@
 #include <openbsc/gsm_data.h>
 #include <openbsc/meas_rep.h>
 #include <openbsc/signal.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <openbsc/handover.h>
 #include <osmocom/gsm/gsm_utils.h>
 

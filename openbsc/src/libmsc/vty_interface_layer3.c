@@ -38,7 +38,7 @@
 #include <osmocom/gsm/gsm_utils.h>
 #include <osmocom/core/utils.h>
 #include <openbsc/db.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <openbsc/signal.h>
 #include <openbsc/debug.h>
 #include <openbsc/vty.h>

@@ -44,7 +44,7 @@
 #include <openbsc/signal.h>
 #include <openbsc/debug.h>
 #include <openbsc/network_listen.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 
 static struct gsm_network *gsmnet;
 

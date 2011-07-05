@@ -28,7 +28,7 @@
 #include <openbsc/bsc_nat_sccp.h>
 
 #include <osmocom/core/application.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 
 #include <osmocom/sccp/sccp.h>
 #include <osmocom/gsm/protocol/gsm_08_08.h>

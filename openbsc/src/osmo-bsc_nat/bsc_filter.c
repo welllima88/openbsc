@@ -25,7 +25,7 @@
 #include <openbsc/ipaccess.h>
 #include <openbsc/debug.h>
 
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <osmocom/gsm/protocol/gsm_08_08.h>
 
 #include <osmocom/sccp/sccp.h>

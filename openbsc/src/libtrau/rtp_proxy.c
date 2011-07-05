@@ -28,7 +28,7 @@
 #include <time.h>        /* clock() */
 #include <sys/utsname.h> /* uname() */
 
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <openbsc/gsm_data.h>
 #include <osmocom/core/msgb.h>
 #include <osmocom/core/select.h>

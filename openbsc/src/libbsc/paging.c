@@ -38,11 +38,10 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#include <osmocom/core/talloc.h>
 #include <osmocom/gsm/gsm48.h>
 #include <osmocom/gsm/gsm0502.h>
-
 #include <openbsc/paging.h>
+#include <talloc.h>
 #include <openbsc/debug.h>
 #include <openbsc/signal.h>
 #include <openbsc/abis_rsl.h>

@@ -30,7 +30,7 @@
 #include <unistd.h>
 
 #include <osmocom/core/msgb.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <osmocom/core/select.h>
 
 #include <openbsc/mgcp.h>

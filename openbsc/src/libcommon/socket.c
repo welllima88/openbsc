@@ -37,7 +37,7 @@
 #include <osmocom/core/msgb.h>
 #include <openbsc/debug.h>
 #include <openbsc/gsm_data.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 
 int make_sock(struct osmo_fd *bfd, int proto,
 	      uint32_t ip, uint16_t port, int priv_nr,

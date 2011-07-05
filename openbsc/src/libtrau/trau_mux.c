@@ -28,7 +28,7 @@
 #include <openbsc/subchan_demux.h>
 #include <openbsc/e1_input.h>
 #include <openbsc/debug.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 
 uint8_t gsm_fr_map[] = {
 	6, 6, 5, 5, 4, 4, 3, 3,

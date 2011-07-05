@@ -39,7 +39,7 @@
 
 #include <osmocom/core/application.h>
 #include <osmocom/core/msgb.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <osmocom/core/process.h>
 #include <osmocom/core/select.h>
 

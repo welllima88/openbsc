@@ -40,7 +40,7 @@
 #include <openbsc/rtp_proxy.h>
 #include <osmocom/gsm/rsl.h>
 
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 
 #define RSL_ALLOC_SIZE		1024
 #define RSL_ALLOC_HEADROOM	128

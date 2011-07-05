@@ -29,7 +29,7 @@
 
 #include <osmocom/core/msgb.h>
 #include <osmocom/gsm/tlv.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <osmocom/core/rate_ctr.h>
 
 #include <openbsc/debug.h>

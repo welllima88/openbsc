@@ -30,7 +30,7 @@
 #include <openbsc/vty.h>
 
 #include <osmocom/core/linuxlist.h>
-#include <osmocom/core/talloc.h>
+#include <talloc.h>
 #include <osmocom/gsm/gsm0808.h>
 
 #include <osmocom/gsm/protocol/gsm_08_08.h>
