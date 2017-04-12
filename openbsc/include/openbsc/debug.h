@@ -39,6 +39,7 @@ enum {
 	DV42BIS,
 	DVLR,
 	DIUCS,
+	DSIGTRAN,
 	Debug_LastEntry,
 };
 
