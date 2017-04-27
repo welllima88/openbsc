@@ -178,6 +178,13 @@ struct bsc_config {
 
 	/* Osmux is enabled/disabled per BSC */
 	int osmux;
+
+	/* Use a jitterbuffer on uplink receiver side of this BSC:
+	 * 0 means disable, 1 means enabled */
+	int bts_dejitter;
+	/* Minimum and maximum buffer size for the jitter buffer */
+	uint32_t bts_jitter_delay_min;
+	uint32_t bts_jitter_delay_max;
 };
 
 struct bsc_lac_entry {

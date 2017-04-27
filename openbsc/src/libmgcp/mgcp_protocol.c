@@ -825,6 +825,12 @@ mgcp_header_done:
 		goto error2;
 	}
 
+	/* Apply Jiter buffer settings for this endpoint, they can be overriden by policy later */
+	endp->bts_dejitter = endp->cfg->bts_dejitter;
+	endp->bts_jitter_delay_min = endp->cfg->bts_jitter_delay_min;
+	endp->bts_jitter_delay_max = endp->cfg->bts_jitter_delay_max;
+
+
 	endp->allocated = 1;
 
 	/* set up RTP media parameters */
@@ -866,6 +872,14 @@ mgcp_header_done:
 			/* just continue */
 			break;
 		}
+	}
+
+	/* Set up jitter buffer if required */
+	if(endp->bts_dejitter) {
+		endp->bts_jb = osmo_jibuf_alloc();
+		osmo_jibuf_set_min_delay(endp->bts_jb, endp->bts_jitter_delay_min);
+		osmo_jibuf_set_max_delay(endp->bts_jb, endp->bts_jitter_delay_max);
+		osmo_jibuf_set_dequeue_cb(endp->bts_jb, mgcp_dejitter_udp_send, &endp->net_end);
 	}
 
 	LOGP(DMGCP, LOGL_DEBUG, "Creating endpoint on: 0x%x CI: %u port: %u/%u\n",
@@ -1332,6 +1346,9 @@ int mgcp_endpoints_allocate(struct mgcp_trunk_config *tcfg)
 void mgcp_release_endp(struct mgcp_endpoint *endp)
 {
 	LOGP(DMGCP, LOGL_DEBUG, "Releasing endpoint on: 0x%x\n", ENDPOINT_NUMBER(endp));
+	if(endp->bts_jb)
+		osmo_jibuf_delete(endp->bts_jb);
+	endp->bts_jb = NULL;
 	endp->ci = CI_UNUSED;
 	endp->allocated = 0;
 
